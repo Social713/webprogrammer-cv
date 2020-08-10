@@ -1,0 +1,166 @@
+/*************************** TAG Selectors ******************************/
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E
+}
+
+div {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h1 {
+  font-family: 'Clicker Script', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #F2C5A7;
+}
+
+h2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 2rem;
+  color: #F2C5A7;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #8FBAF3;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: #8fbaf3;
+  border-width: 6px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+}
+
+a {
+  color: #6988B3;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+/*************************** CLASS Selectors ******************************/
+.bottom-container {
+  background-color: #76BDDB;
+  position: relative;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  background: #F2C5A7;
+  background-image: -webkit-linear-gradient(top, #F2C5A7, #FFDFC9);
+  background-image: -moz-linear-gradient(top, #F2C5A7, #FFDFC9);
+  background-image: -ms-linear-gradient(top, #F2C5A7, #FFDFC9);
+  background-image: -o-linear-gradient(top, #F2C5A7, #FFDFC9);
+  background-image: linear-gradient(to bottom, #F2C5A7, #FFDFC9);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #F9DBA0;
+  background-image: -webkit-linear-gradient(top, #F9DBA0, #FFDFC9);
+  background-image: -moz-linear-gradient(top, #F9DBA0, #FFDFC9);
+  background-image: -ms-linear-gradient(top, #F9DBA0, #FFDFC9);
+  background-image: -o-linear-gradient(top, #F9DBA0, #FFDFC9);
+  background-image: linear-gradient(to bottom, #F9DBA0, #FFDFC9);
+  text-decoration: none;
+}
+
+.cloud-1 {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.cloud-2 {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.mountain {
+  position: relative;
+  top: 4px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+}
+
+.intro {
+  width: 30%;
+  line-height: 2;
+  margin: auto;
+}
+
+.teamwork {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.problem {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.top-container {
+  background-color: #76BDDB;
+  position: relative;
+  padding-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.quotes {
+  font-style: italic;
+}
